@@ -462,7 +462,7 @@
 }
 #footersec4
 {
-    border: 2px solid rgb(101,46,228);
+    /* border: 2px solid rgb(101,46,228); */
     height: 10%;
     width: 100%;
     display: flex;
@@ -481,7 +481,7 @@
 }
 #footersec5
 {
-    border: 2px solid rgb(153, 236, 97);
+    /* border: 2px solid rgb(153, 236, 97); */
     height: 10%;
     width: 100%;
     display: flex;
