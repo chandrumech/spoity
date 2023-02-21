@@ -169,6 +169,10 @@
     justify-content: space-evenly;
     align-items: center;
 }
+.buttoninner:hover{
+    background-color: #1ed760 !important;
+    transition: 2s;
+}
 .home2list
 {
     height: 70%;
