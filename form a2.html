@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><u><b>Student Registration Form Using Table in HTML</b></u></h1>
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="name">First Name</label></td>
+                <td><input type="text" name="name" id="name" placeholder="Ghanendra">(Max 50 Characters Allowed)</td>
+            </tr>
+            <tr>
+                <td><label for="name">Last Name</label></td>
+                <td><input type="text" name="name" id="name" placeholder="Yadav">(Max 50 Characters Allowed)</td>
+            </tr>
+            <tr>
+                <td><label for="mail"></label></td>
+                <td><input type="email" name="mail" id="mail" placeholder="yghanendra@gmail.com"></td>
+            </tr>
+            <tr>
+                <td><label for="num">Mobile Number</label></td>
+                <td><input type="tel" name="num" id="num" placeholder="7842xxxxxx">(10 Digits Allowed)</td>
+            </tr>
+            <tr>
+                <td><label for="gen">Gender</label></td>
+                <td><input type="radio" name="gen" id="gen">Male</td>
+                <td><input type="radio" name="gen" id="gen">Female</td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date Of Birth(DOB)</label></td>
+                <td><input list="data" name="dob" id="dob" placeholder="Day">
+                    <datalist id="data">
+                        <option value="day">Day</option>
+                    </datalist>
+                </td>
+                <td><input list="data" name="dob" id="dob" placeholder="Month">
+                    <datalist id="data">
+                        <option value="month">Month</option>
+                    </datalist>
+                </td>
+                <td><input list="data" name="dob" id="dob" placeholder="Year">
+                    <datalist id="data">
+                        <option value="year">Year</option>
+                    </datalist>
+                </td>                
+            </tr>
+            <tr>
+                <td><label for="add">Address</label></td>
+                <td><textarea name="address" id="add" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="place">City</label></td>
+                <td><input type="text" name="place" id="place" placeholder="Bangalore">(Max 50 Characters Allowed)</td>
+            </tr>
+            <tr>
+                <td><label for="num">Pin Code</label></td>
+                <td><input type="number" name="num" id="num" placeholder="560068">(Max 6 Numbers Allowed)</td>
+            </tr>
+            <tr>
+                <td><label for="place">State</label></td>
+                <td><input type="text" name="place" id="place" placeholder="Karnataka">(Max 50 Characters Allowed)</td>
+            </tr>
+            <tr>
+                <td><label for="con">Country</label></td>
+                <td><input type="text" name="con" id="con" placeholder="India"></td>
+            </tr>
+            <tr>
+                <td><label for="hob">Hobbies</label></td>
+                <td><input type="checkbox" name="hob" id="hob">Drawing
+                    <input type="checkbox" name="hob" id="hob">Singing
+                    <input type="checkbox" name="hob" id="hob">Dancing
+                    <input type="checkbox" name="hob" id="hob">Sketching<br>
+                    <input type="checkbox" name="hob" id="hob">Others
+                    <input type="text" name="hob" id="hob" placeholder="Ex-Teaching">(Max 50 Characters Allowed)</td>
+            </tr>
+            <tr>
+                <td><label for="qua">Qualification</label></td>
+                <td><input type="checkbox" name="qua" id="qua">High School(10th) <br>
+                    <input type="checkbox" name="qua" id="qua">Higher School(12th) <br>
+                    <input type="checkbox" name="qua" id="qua">Graduation(Bachelores) <br>
+                    <input type="checkbox" name="qua" id="qua">Post Graduation(Masters) <br>
+                    <input type="checkbox" name="qua" id="qua">Phd</td>
+            </tr>
+            <tr>
+                <td><label for="qua">Courses Appiled For</label></td>
+                <td><input type="radio" name="qua" id="qua">BCA(Bachelor of Computer Applications) <br>
+                    <input type="radio" name="qua" id="qua">B.Com(Bachelor of Commerce) <br>
+                    <input type="radio" name="qua" id="qua">B.Sc(Bachelor of Science) <br>
+                    <input type="radio" name="qua" id="qua">BA(Bachelor of Arts) <br>
+                    <input type="radio" name="qua" id="qua">MCA(Master of Computer Applications) <br>
+                    <input type="radio" name="qua" id="qua">M.Com(Master of Commerce) <br>
+                    <input type="radio" name="qua" id="qua">M.Sc(Master of Science) <br>
+                    <input type="radio" name="qua" id="qua">MA(Master of Arts)               
+                </td>
+            </tr>
+            <tr>
+                <td><input type="sumbit" name="sum" id="sum">
+                    <input type="reset" name="res" id="res"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
